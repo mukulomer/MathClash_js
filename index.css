@@ -1,0 +1,115 @@
+body {
+  height: 100vh;
+  font-family: "Source Code Pro", monospace;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background: rgb(187, 174, 238);
+  background: radial-gradient(
+    circle,
+    rgba(187, 174, 238, 1) 30%,
+    rgba(66, 145, 237, 1) 100%
+  );
+}
+
+.box {
+  height: 90%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  height: 90%;
+  width: 30%;
+  border: 1px solid black;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(255, 180, 180, 1) 35%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  box-shadow: 2px 2px 8px black;
+  border-radius: 10px;
+}
+
+.target {
+  height: 70px;
+  width: 70px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  margin: 60px 0px 0px 30px;
+  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+#count {
+  height: 50px;
+  width: 50px;
+  display: inline-flex;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgb(236, 57, 117);
+  margin: 3px 0px 40px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+
+#grid {
+  height: 50%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 43px 0px 0px 0px;
+  background-color: darkslategrey;
+}
+
+.row {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2px 2px 2px 2px;
+  margin-left: 8px;
+}
+.colm {
+  height: 100%;
+  width: 15%;
+  border: 1px solid black;
+  /* padding: 2px 2px 2px 2px; */
+  border-radius: 5px;
+  background-color: #3f79a5;
+  box-shadow: 2px 2px 8px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+
+#score {
+  margin-left: 100px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.selected {
+  background-color: rgb(103, 35, 212);
+}
